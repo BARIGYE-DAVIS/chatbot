@@ -999,6 +999,15 @@ const faqResponses = [
     ],
     answer: "Yes, the Certificate in AI for Predictive Marketing & Customer Analytics."
   },
+
+  // services 
+
+    {
+    keywords: [
+      "what services do you offer?", "which services do you offer?", "what programs do you have?", "what courses do you offer?", "what programs do you offer?", "what courses do you have?"
+    ],
+    answer: "We offer 6 specialized AI certificate programs: Intelligent Finance, Risk Intelligence, Predictive Marketing, Cyber Intelligence, Tax Intelligence, and Smart Insurance"
+  },
   {
     keywords: [
       "what is the core aim of oiet collaborative projects", "oiet collaborative projects aim"
@@ -1109,7 +1118,7 @@ function getBotResponse(userMsg) {
   if (!botReply) {
     const msg = userMsg.toLowerCase();
     
-    if (msg.includes('course') || msg.includes('program')) {
+    if (msg.includes('course') || msg.includes('program'))  {
       botReply = "We offer 6 specialized AI certificate programs: Intelligent Finance, Risk Intelligence, Predictive Marketing, Cyber Intelligence, Tax Intelligence, and Smart Insurance. Which area interests you most?";
     } else if (msg.includes('apply') || msg.includes('join') || msg.includes('enroll')) {
       botReply = "To apply for any of our programs, contact us at info@oiet.ac.ug or WhatsApp +256 744 513045. Each course costs UGX 1,200,000 for Ugandans and runs for 6 months online. Which program interests you?";
