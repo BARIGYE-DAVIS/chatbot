@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OIET - Innovative Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">OIET</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to OIET</h1>
+      <p>Innovative solutions for a better tomorrow.</p>
+      <a href="#contact" class="cta-btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About OIET</h2>
+      <p>
+        
+        OIET is dedicated to delivering cutting-edge technology and business solutions. 
+        Our team combines expertise and passion to help you achieve your goals and stay ahead in a rapidly changing world.
+      </p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <h3>Consulting</h3>
+          <p>Expert advice to transform your business strategies and operations.</p>
+        </div>
+        <div class="service-item">
+          <h3>Software Development</h3>
+          <p>Custom software solutions tailored to your unique needs.</p>
+        </div>
+        <div class="service-item">
+          <h3>Support & Training</h3>
+          <p>Comprehensive support and training for seamless technology adoption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!-- existing landing page content -->
+
+<!-- Chatbot Icon Button -->
+<div id="OIET-chatbot-icon" title="Chat with OIET">
+  <img src="chatbot-icon.png" alt="Chatbot Icon" />
+</div>
+
+<!-- Chatbot Widget (hidden by default) -->
+<div id="OIET-chatbot-widget" class="hidden">
+  <div class="chatbot-header">
+  
+    <button id="OIET-chatbot-close">&times;</button>
+  </div>
+  <div class="chatbot-messages" id="OIET-chatbot-messages"></div>
+  <form id="OIET-chatbot-form">
+    <input type="text" id="OIET-chatbot-input" placeholder="Type your message..." autocomplete="off" required />
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<!-- End of body -->
+</body>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OIET. All rights reserved.</p>
+    </div>
+  </footer>
+
+<script src="chatbot.js"></script>
+</body>
+</html>
