@@ -24,11 +24,14 @@ function showWelcomeMessage() {
 Welcome to OIET! I'm here to help you with:
 
 • Information about our services
-• Technical support questions
-• Business consultation inquiries
-• General assistance
+• Courses  we offer
+• How classes are conducted?
+• Course Duration?
+• Payment Options
+• Study Mode.
 
-How can I assist you today?`;
+How can I assist you today?
+  `.trim();
   typeWriterMessage('bot', welcomeText);
 }
 
